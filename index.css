@@ -34,35 +34,36 @@ nav ul li {
 }
 
 .search-box {
-    border: 0.5px solid lightslategrey;
+    border: 0.5px solid white;
     height: 140px;
     width: 50px;
     margin: 200px; 
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-  }
+ul .container-a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space around;
+    flex-direction: column;
+    background-color: deepskyblue;
+	border: 15px solid blue;
+    height: 300px;
+    padding: 0px;
+    width: 300px;
+    margin: 0;
+    flex-wrap: 4;
+    align-items: stretch;
+}
 
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-  }
+li .flex-item-2 {
+    flex: 0 32%;
+    width: 100;
+    margin: 10px;
+    height: 100px;
+    margin-bottom: 2%;
+    flex-grow: 4;
+    border: 0;
+}
 
-  .grid-container-recent-update {
-    display: grid;
-    grid-template-columns: auto auto;
-    background-color: #2196F3;
-    padding: 10px;
-    margin: 200px;
-  }
-  
-  .grid-item-a {
 
-  }
+
