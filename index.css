@@ -82,7 +82,7 @@ nav ul li {
     margin: 200px; 
 }
 
-ul .container-a {
+/* ul .container-a {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 50% 50%;
@@ -106,41 +106,61 @@ li .flex-item-2 {
     margin-bottom: 2%;
     flex-grow: 4;
     border: 0;
-}
+} */
 
 
 
 .flexbox-container {
-  display: flex;
-
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Apple', sans-serif;
+    color: white;
 }
 
 .flexbox-item {
-  width: 200px;
-  margin: 10px;
+  width: 100px;
+  margin: 1px;
   border-radius: 10%;
   background-color: #8866B8;
 }
 
 .flexbox-item-1 {
-  min-height: 100px;
+  min-height: 50px;
 }
 
 .flexbox-item-2 {
-  min-height: 100px;
+  min-height: 50px;
+  background-color: #6C828F;
 }
 
 .flexbox-item-3 {
-  min-height: 100px;
+  min-height: 50px;
+  background-color: #15B592;
 }
 
 .flexbox-item-4 {
-    min-height: 100px;
+    min-height: 50px;
   }
 
-  .flexbox-item-5 {
-    min-height: 100px;
+.flexbox-item-5 {
+    min-height: 50px;
+    background-color: #556371;
   }
 
+.flexbox-item-6 {
+    min-height: 50px;
+   background-color: #15B592;
+  }
+
+.flexbox-item-7 {
+    min-height: 50px;
+  }
+
+.flexbox-item-8 {
+    min-height: 50px;
+    background-color: #556371;
+  }
 
 
